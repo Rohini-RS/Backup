@@ -1,0 +1,56 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson.model.Queue_-State>
+  <counter>50</counter>
+  <items>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UserIdCause/>
+              <int>1</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>26</id>
+      <task class="hudson.model.FreeStyleProject">job1</task>
+      <inQueueSince>1562955198929</inQueueSince>
+      <buildableStartMilliseconds>1562955198930</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+    <hudson.model.Queue_-BuildableItem>
+      <actions>
+        <hudson.model.CauseAction>
+          <causeBag class="linked-hash-map">
+            <entry>
+              <hudson.model.Cause_-UserIdCause/>
+              <int>2</int>
+            </entry>
+            <entry>
+              <hudson.triggers.SCMTrigger_-SCMTriggerCause>
+                <pollingLog>Started on Jul 14, 2019 7:00:00 AM
+Using strategy: Default
+[poll] Last Built Revision: Revision 695c1de11aee18d9301d4be004a881d86d8dca8a (refs/remotes/origin/master)
+No credentials specified
+ &gt; git --version # timeout=10
+ &gt; git ls-remote -h https://github.com/Rohini-RS/test # timeout=10
+Found 3 remote heads on https://github.com/Rohini-RS/test
+[poll] Latest remote head revision on refs/heads/master is: 678042406747e2e5b30194f44839789a830c3aeb
+Done. Took 95 ms
+Changes found
+</pollingLog>
+              </hudson.triggers.SCMTrigger_-SCMTriggerCause>
+              <int>11</int>
+            </entry>
+          </causeBag>
+        </hudson.model.CauseAction>
+      </actions>
+      <id>27</id>
+      <task class="hudson.model.FreeStyleProject">Job3</task>
+      <inQueueSince>1562995111693</inQueueSince>
+      <buildableStartMilliseconds>1562995111700</buildableStartMilliseconds>
+      <isPending>false</isPending>
+    </hudson.model.Queue_-BuildableItem>
+  </items>
+</hudson.model.Queue_-State>

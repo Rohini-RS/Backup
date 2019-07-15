@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4GTNoblJ2zLiNmviLSSRgRgQzbYANGZqShx5UQS/XzOCAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgZ+/az8JP2k0syclHgQCwBUyfFVxAAAAA==[0mbuild_job" build number [8mha:////4F3Qu8AP2WyuVPNqByse8nTkKZAMDvLtpPCwylI2oxZlAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBgH9rPwk/aTSzJyUeBDLDAAqYuM9xQAAAA==[0m6
+originally caused by:
+ Started by GitHub push by Rohini-RS
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/deploy_job
+[deploy_job] $ /bin/sh -xe /tmp/jenkins7285004928340462671.sh
++ cd /var/lib/jenkins/workspace/build_job
++ cp abc.exe /var/lib/jenkins/workspace/deploy_job
+Triggering a new build of [8mha:////4N0aD0whSEHRqCPiWncPGuw1aSZEttGwa0MP79wWvnXdAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyOEgY+/az8JP2S1OKSeBADAJ4vaojDAAAA[0mtest_job
+Finished: SUCCESS

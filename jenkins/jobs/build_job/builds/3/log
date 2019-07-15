@@ -1,0 +1,25 @@
+Started by GitHub push by Rohini-RS
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/build_job
+using credential 59dd41b6-e342-40b7-85e7-8e1fc0d89ae6
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Rohini-RS/test.git # timeout=10
+Fetching upstream changes from https://github.com/Rohini-RS/test.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/Rohini-RS/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision ad5725d34724d468c3d713877101316453b289dd (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ad5725d34724d468c3d713877101316453b289dd
+Commit message: "Update big3.c"
+ > git rev-list --no-walk 910acd4b050d6d715773a12ccde4139a4ff9dd44 # timeout=10
+[build_job] $ /bin/sh -xe /tmp/jenkins3541171974922660414.sh
++ cd /var/lib/jenkins/workspace/build_job
++ make
+gcc -c -o big3.o big3.c
+gcc -o abc.exe fact.o big3.o reverse.o main.o
+Triggering a new build of [8mha:////4H07EM0oKogsBWUYfPBRQRkzAz/Tgv7I+YXrP1CrIC49AAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JP2U1IKc/Mp4EBMAHTlgZMUAAAA=[0mdeploy_job
+Finished: SUCCESS

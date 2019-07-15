@@ -1,0 +1,23 @@
+commit 695c1de11aee18d9301d4be004a881d86d8dca8a
+tree 92572432aa22b0d3380bc395ce2a0bb6991edfdd
+parent 1e747802afc2bb0a72cd3f1f9d1866d5fe49cd98
+author developer2 <ec2-user@ip-172-31-47-49.us-east-2.compute.internal> 2019-07-11 17:03:16 +0000
+committer developer2 <ec2-user@ip-172-31-47-49.us-east-2.compute.internal> 2019-07-11 17:03:16 +0000
+
+    changed main and generalised makefile
+
+
+
+:100644 100644 940231e9e59f5b11c1b7bcfb16e40c1dab142e64 a9d4d1c9cffd88ad61686781955e430c91551d23 M	main.c
+:100644 100644 1807606ca8b6dfafd88f152c7ae6754a31d5290a 97f6c00500306899f6fef4f0095ca7fed4320bde M	makefile
+commit 1e747802afc2bb0a72cd3f1f9d1866d5fe49cd98
+tree a216a5f5a6e1ed5041aca179b1d155ef6e5fd375
+parent 67da706d1f0522396082caa552a251a51300040d
+author developer2 <ec2-user@ip-172-31-47-49.us-east-2.compute.internal> 2019-07-11 16:49:36 +0000
+committer developer2 <ec2-user@ip-172-31-47-49.us-east-2.compute.internal> 2019-07-11 16:49:36 +0000
+
+    added \n in fact.c
+
+
+
+:100644 100644 51c8aecc770ffd78bb5321027aa7e42283217956 7ab2e938277d69ebb4cdb73708c72b53999479b7 M	fact.c

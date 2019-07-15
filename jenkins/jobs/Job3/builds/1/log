@@ -1,0 +1,41 @@
+Started by user [8mha:////4J4JLHSKuRKBWsPE6/J+uXUMXMzb9XX+CJKPoTD4Fv4JAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9ovyMzLxMAN03sQrBAAAA[0mRohini
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Job3
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Rohini-RS/test
+ > git init /var/lib/jenkins/workspace/Job3 # timeout=10
+Fetching upstream changes from https://github.com/Rohini-RS/test
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Rohini-RS/test +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Rohini-RS/test # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Rohini-RS/test # timeout=10
+Fetching upstream changes from https://github.com/Rohini-RS/test
+ > git fetch --tags --progress https://github.com/Rohini-RS/test +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 67da706d1f0522396082caa552a251a51300040d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 67da706d1f0522396082caa552a251a51300040d
+Commit message: "adding c files"
+First time build. Skipping changelog.
+[Job3] $ /bin/sh -xe /tmp/jenkins3840069398615851483.sh
++ cd /var/lib/jenkins/workspace/job2
++ make
+gcc -c fact.c
+gcc -c big3.c
+gcc -c reverse.c
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:4:2: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+  fact();
+  ^~~~
+main.c:5:2: warning: implicit declaration of function ‘big’ [-Wimplicit-function-declaration]
+  big();
+  ^~~
+main.c:7:2: warning: implicit declaration of function ‘reverse_str’ [-Wimplicit-function-declaration]
+  reverse_str();
+  ^~~~~~~~~~~
+gcc -o abc.exe fact.o big3.o reverse.o main.o
+Finished: SUCCESS

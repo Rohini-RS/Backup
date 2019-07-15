@@ -1,0 +1,29 @@
+Started by user unknown or anonymous
+Running as SYSTEM
+Building remotely on [8mha:////4PVe+OZH7cWe8rupGstT8v4o20ofmi4eRAJJpYSDiAg6AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwOoBn6yfm5BaUlqUX6xTmJZanxBkYAZfBG6McAAAA=[0mslave_02 in workspace /home/ec2-user/workspace/job1
+using credential 59dd41b6-e342-40b7-85e7-8e1fc0d89ae6
+Cloning the remote Git repository
+Cloning repository https://github.com/Rohini-RS/test
+ > git init /home/ec2-user/workspace/job1 # timeout=10
+Fetching upstream changes from https://github.com/Rohini-RS/test
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/Rohini-RS/test +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Rohini-RS/test # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Rohini-RS/test # timeout=10
+Fetching upstream changes from https://github.com/Rohini-RS/test
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress https://github.com/Rohini-RS/test +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 695c1de11aee18d9301d4be004a881d86d8dca8a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 695c1de11aee18d9301d4be004a881d86d8dca8a
+Commit message: "changed main and generalised makefile"
+ > git rev-list --no-walk 695c1de11aee18d9301d4be004a881d86d8dca8a # timeout=10
+[job1] $ /bin/sh -xe /tmp/jenkins7935591043460993154.sh
++ cd /var/lib/jenkins/workspace/job1
+/tmp/jenkins7935591043460993154.sh: line 2: cd: /var/lib/jenkins/workspace/job1: No such file or directory
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

@@ -1,0 +1,23 @@
+Started by user unknown or anonymous
+Started by user unknown or anonymous
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/Job3
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Rohini-RS/test # timeout=10
+Fetching upstream changes from https://github.com/Rohini-RS/test
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Rohini-RS/test +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 695c1de11aee18d9301d4be004a881d86d8dca8a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 695c1de11aee18d9301d4be004a881d86d8dca8a
+Commit message: "changed main and generalised makefile"
+ > git rev-list --no-walk 695c1de11aee18d9301d4be004a881d86d8dca8a # timeout=10
+[Job3] $ /bin/sh -xe /tmp/jenkins1821782380115759582.sh
++ cd /var/lib/jenkins/workspace/job2
++ make
+make: 'abc.exe' is up to date.
+Finished: SUCCESS
